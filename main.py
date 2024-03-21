@@ -4,8 +4,9 @@ class MAtrix:
         self.y = y
         self.table: int[self.x][self.y] = []
     
-    def is_inversible( self) -> bool:
-        if self.det() != 0:
+    def is_inversible(self ) -> bool:
+        '''Description'''
+        if self.det():
             return True
         return False
 
